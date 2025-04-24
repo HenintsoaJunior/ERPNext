@@ -1,0 +1,187 @@
+2025-04-22 13:17:07,640 DEBUG cd bench-1 && python3 -m venv env
+2025-04-22 13:17:10,573 DEBUG cd bench-1 && /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/env/bin/python -m pip install --quiet --upgrade pip
+2025-04-22 13:17:12,174 DEBUG cd bench-1 && /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/env/bin/python -m pip install --quiet wheel
+2025-04-22 13:17:13,533 LOG Getting frappe
+2025-04-22 13:17:13,533 DEBUG cd bench-1/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2025-04-22 13:17:26,028 LOG Installing frappe
+2025-04-22 13:17:26,029 DEBUG cd /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1 && /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/env/bin/python -m pip install --quiet --upgrade -e /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/apps/frappe 
+2025-04-22 13:18:00,530 DEBUG cd /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/apps/frappe && yarn install --check-files
+2025-04-22 13:18:05,252 DEBUG cd bench-1 && bench build
+2025-04-22 13:18:05,419 INFO /home/henintsoa/.local/bin/bench build
+2025-04-22 13:18:23,116 LOG setting up backups
+2025-04-22 13:18:23,124 LOG backups were set up
+2025-04-22 13:18:23,124 INFO Bench bench-1 initialized
+2025-04-22 13:18:37,517 INFO /home/henintsoa/.local/bin/bench new-site erpnext.localhost
+2025-04-22 13:18:54,322 INFO /home/henintsoa/.local/bin/bench get-app https://github.com/frappe/erpnext
+2025-04-22 13:18:54,331 LOG Getting erpnext
+2025-04-22 13:18:54,331 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext  --depth 1 --origin upstream
+2025-04-22 13:19:18,425 LOG Installing erpnext
+2025-04-22 13:19:18,425 DEBUG cd /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1 && /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/env/bin/python -m pip install --quiet --upgrade -e /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/apps/erpnext 
+2025-04-22 13:19:24,456 DEBUG cd /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/apps/erpnext && yarn install --check-files
+2025-04-22 13:19:24,811 DEBUG bench build --app erpnext
+2025-04-22 13:19:24,933 INFO /home/henintsoa/.local/bin/bench build --app erpnext
+2025-04-22 13:19:33,164 INFO /home/henintsoa/.local/bin/bench --site erpnext.localhost install-app erpnext
+2025-04-22 13:19:38,422 INFO /home/henintsoa/.local/bin/bench --site erpnext.localhost install-app erpnext
+2025-04-22 13:20:35,818 INFO /home/henintsoa/.local/bin/bench list-sites
+2025-04-22 13:20:50,220 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 13:20:53,710 INFO /home/henintsoa/.local/bin/bench list-sites
+2025-04-22 13:21:26,016 INFO /home/henintsoa/.local/bin/bench --site erpnext.localhost install-app erpnext
+2025-04-22 13:21:45,536 INFO /home/henintsoa/.local/bin/bench get-app https://github.com/frappe/erpnext
+2025-04-22 13:21:48,587 INFO App moved from apps/erpnext to archived/apps/erpnext-2025-04-22
+2025-04-22 13:21:48,589 LOG Getting erpnext
+2025-04-22 13:21:48,590 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext  --depth 1 --origin upstream
+2025-04-22 13:21:57,925 LOG Installing erpnext
+2025-04-22 13:21:57,926 DEBUG cd /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1 && /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/env/bin/python -m pip install --quiet --upgrade -e /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/apps/erpnext 
+2025-04-22 13:22:00,594 DEBUG cd /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/apps/erpnext && yarn install --check-files
+2025-04-22 13:22:00,942 DEBUG bench build --app erpnext
+2025-04-22 13:22:01,061 INFO /home/henintsoa/.local/bin/bench build --app erpnext
+2025-04-22 13:22:14,024 INFO /home/henintsoa/.local/bin/bench --site erpnext.localhost install-app erpnext
+2025-04-22 13:23:10,502 INFO /home/henintsoa/.local/bin/bench --version
+2025-04-22 13:23:25,654 INFO /home/henintsoa/.local/bin/bench --site erpnext.localhost install-app erpnext
+2025-04-22 13:23:37,375 INFO /home/henintsoa/.local/bin/bench new-site erpnext.localhost
+2025-04-22 13:24:22,941 INFO /home/henintsoa/.local/bin/bench list-sites
+2025-04-22 13:24:33,274 INFO /home/henintsoa/.local/bin/bench --site erpnext.localhost install-app erpnext
+2025-04-22 13:25:33,653 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 13:25:52,066 INFO /home/henintsoa/.local/bin/bench stop
+2025-04-22 13:25:56,308 INFO /home/henintsoa/.local/bin/bench restart
+2025-04-22 13:25:59,385 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 13:27:02,281 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 13:27:02,550 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 13:27:02,553 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 13:27:02,557 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 13:27:02,567 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 13:35:53,464 INFO /home/henintsoa/.local/bin/bench restart
+2025-04-22 13:35:56,909 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 13:35:57,142 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 13:35:57,171 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 13:35:57,190 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 13:35:57,202 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 13:40:56,587 INFO /home/henintsoa/.local/bin/bench restart
+2025-04-22 13:40:58,076 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 13:40:58,306 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 13:40:58,314 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 13:40:58,353 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 13:40:58,356 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 13:47:07,715 INFO /home/henintsoa/.local/bin/bench restart
+2025-04-22 13:47:10,257 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 13:47:10,500 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 13:47:10,501 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 13:47:10,506 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 13:47:10,508 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 13:48:06,667 INFO /home/henintsoa/.local/bin/bench restart
+2025-04-22 13:48:09,745 INFO /home/henintsoa/.local/bin/bench restart
+2025-04-22 13:48:12,641 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 13:48:12,881 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 13:48:12,891 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 13:48:12,930 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 13:48:12,930 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 13:50:07,745 INFO /home/henintsoa/.local/bin/bench restart
+2025-04-22 13:50:09,424 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 13:50:09,671 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 13:50:09,687 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 13:50:09,695 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 13:50:09,699 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 13:51:05,103 INFO /home/henintsoa/.local/bin/bench restart
+2025-04-22 13:51:06,482 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 13:51:06,706 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 13:51:06,709 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 13:51:06,740 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 13:51:06,774 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 13:53:32,500 INFO /home/henintsoa/.local/bin/bench restart
+2025-04-22 13:53:33,895 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 13:53:34,141 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 13:53:34,150 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 13:53:34,152 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 13:53:34,165 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 14:13:26,416 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 14:13:26,620 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 14:13:26,627 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 14:13:26,656 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 14:13:26,678 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 14:15:24,292 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 14:36:41,563 INFO /home/henintsoa/.local/bin/bench restart
+2025-04-22 14:36:43,610 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 14:36:43,798 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 14:36:43,803 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 14:36:43,806 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 14:36:43,825 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 15:02:56,703 INFO /home/henintsoa/.local/bin/bench restart
+2025-04-22 15:02:58,581 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 15:02:58,791 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 15:02:58,792 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 15:02:58,795 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 15:02:58,822 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 15:33:57,545 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 15:33:57,754 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 15:33:57,757 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 15:33:57,758 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 15:33:57,790 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 15:48:22,552 INFO /home/henintsoa/.local/bin/bench restart
+2025-04-22 15:48:25,054 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 15:48:25,238 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 15:48:25,271 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 15:48:25,276 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 15:48:25,281 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 15:49:44,910 INFO /home/henintsoa/.local/bin/bench restart
+2025-04-22 15:49:49,320 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 15:49:49,500 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 15:49:49,506 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 15:49:49,530 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 15:49:49,533 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 16:37:35,872 INFO /home/henintsoa/.local/bin/bench restart
+2025-04-22 16:37:39,463 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 16:37:39,644 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 16:37:39,662 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 16:37:39,675 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 16:37:39,684 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 16:45:59,499 INFO /home/henintsoa/.local/bin/bench restart
+2025-04-22 16:46:01,321 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 16:46:01,504 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 16:46:01,539 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 16:46:01,544 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 16:46:01,546 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 16:47:16,217 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 16:47:16,426 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 16:47:16,441 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 16:47:16,456 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 16:47:16,456 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 16:48:38,586 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 16:48:38,765 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 16:48:38,782 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 16:48:38,799 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 16:48:38,799 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 16:49:02,738 INFO /home/henintsoa/.local/bin/bench restart
+2025-04-22 16:49:04,067 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 16:49:04,284 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 16:49:04,285 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 16:49:04,294 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 16:49:04,294 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 17:24:05,324 INFO /home/henintsoa/.local/bin/bench restart
+2025-04-22 17:24:08,071 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 17:24:08,278 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 17:24:08,285 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 17:24:08,323 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-22 17:24:08,327 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 18:00:01,759 INFO /home/henintsoa/.local/bin/bench --verbose --site all backup
+2025-04-22 21:18:37,589 INFO /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/venv-bench/bin/bench start
+2025-04-22 21:18:37,844 INFO /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/venv-bench/bin/bench serve --port 8000
+2025-04-22 21:18:37,879 INFO /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/venv-bench/bin/bench watch
+2025-04-22 21:18:37,880 INFO /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/venv-bench/bin/bench worker
+2025-04-22 21:18:37,895 INFO /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/venv-bench/bin/bench schedule
+2025-04-22 23:48:55,881 INFO /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/venv-bench/bin/bench restart
+2025-04-22 23:48:57,739 INFO /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/venv-bench/bin/bench start
+2025-04-22 23:48:57,943 INFO /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/venv-bench/bin/bench watch
+2025-04-22 23:48:57,956 INFO /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/venv-bench/bin/bench worker
+2025-04-22 23:48:57,978 INFO /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/venv-bench/bin/bench serve --port 8000
+2025-04-22 23:48:57,980 INFO /home/henintsoa/Documents/ETUDE/S6/EVALFIN/bench-1/venv-bench/bin/bench schedule
+2025-04-22 23:56:54,496 INFO /home/henintsoa/.local/bin/bench start
+2025-04-22 23:56:54,732 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-22 23:56:54,737 INFO /home/henintsoa/.local/bin/bench schedule
+2025-04-22 23:56:54,751 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-22 23:56:54,759 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-23 00:00:01,791 INFO /home/henintsoa/.local/bin/bench --verbose --site all backup
+2025-04-23 07:06:45,087 INFO /home/henintsoa/.local/bin/bench start
+2025-04-23 07:06:45,323 INFO /home/henintsoa/.local/bin/bench worker
+2025-04-23 07:06:45,339 INFO /home/henintsoa/.local/bin/bench watch
+2025-04-23 07:06:45,340 INFO /home/henintsoa/.local/bin/bench serve --port 8000
+2025-04-23 07:06:45,348 INFO /home/henintsoa/.local/bin/bench schedule
