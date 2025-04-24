@@ -1,0 +1,7 @@
+2025-04-23 09:36:27,239 ERROR doctype_resetter Error resetting DocType 'Import2': Database.count() got an unexpected keyword argument 'deleted'
+2025-04-23 09:36:27,322 ERROR doctype_resetter Error resetting DocType 'Import1': Database.count() got an unexpected keyword argument 'deleted'
+2025-04-23 09:37:09,815 ERROR doctype_resetter Error resetting DocType 'Import2': Database.count() got an unexpected keyword argument 'deleted'
+2025-04-23 09:37:09,836 ERROR doctype_resetter Error resetting DocType 'Import1': Database.count() got an unexpected keyword argument 'deleted'
+2025-04-23 09:40:07,177 ERROR doctype_resetter Error resetting DocType 'Import2': Database.count() got an unexpected keyword argument 'deleted'
+2025-04-23 09:40:07,247 ERROR doctype_resetter Error resetting DocType 'Import1': Database.count() got an unexpected keyword argument 'deleted'
+2025-04-23 09:47:40,843 ERROR doctype_resetter Field 'name' does not exist in DocType 'Import2'

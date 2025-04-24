@@ -46,3 +46,36 @@ Form Dict: {'cmd': 'erpnext.controllers.RestApi.data'}
 2025-04-23 08:27:31,507 ERROR frappe New Exception collected in error log
 Site: erpnext.localhost
 Form Dict: {'usr': 'rakotoarimananahenintsoa7@gmail.com', 'pwd': '********', 'cmd': 'frappe.auth.get_logged_user**'}
+2025-04-23 13:41:03,801 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'erpnext.controllers.RestApi.data'}
+2025-04-23 13:50:12,017 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'erpnext.controllers.RestApi.data'}
+2025-04-23 13:51:33,250 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'erpnext.controllers.api.rest_api.data'}
+2025-04-23 15:13:51,632 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"doctype":"DocType","name":"Import2","module":"import","is_submittable":0,"istable":0,"editable_grid":0,"issingle":0,"is_tree":0,"custom":0,"is_virtual":0,"permissions":[{"create":1,"delete":1,"email":1,"export":1,"print":1,"read":1,"report":1,"role":"System Manager","share":1,"write":1,"submit":0}],"fields":[{"fieldtype":"Section Break"}]}', 'cmd': 'frappe.client.insert'}
+2025-04-23 18:04:00,952 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'erpnext.controllers.api.rest_api.data'}
+2025-04-23 18:11:00,849 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'erpnext.controllers.api.rest_api.data'}
+2025-04-23 20:04:21,258 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'erpnext.controllers.api.rest_api.data'}
+2025-04-23 20:04:47,065 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'erpnext.controllers.api.rest_api.data'}
+2025-04-23 20:04:48,116 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'erpnext.controllers.api.rest_api.data'}
+2025-04-23 20:05:58,163 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'erpnext.controllers.api.rest_api.data'}
+2025-04-23 20:07:32,934 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'erpnext.controllers.api.rest_api.data'}
