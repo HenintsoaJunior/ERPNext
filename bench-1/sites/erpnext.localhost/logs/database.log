@@ -1874,3 +1874,67 @@ index creation(creation))
 ALTER TABLE `tabImport1` ADD COLUMN `item_code` varchar(140), ADD COLUMN `item_name` varchar(140)
 2025-04-22 23:34:03,733 WARNING database DDL Query made to DB:
 ALTER TABLE `tabImport1` ADD COLUMN `date_test` date
+2025-04-23 08:55:02,690 WARNING database DDL Query made to DB:
+create table `tabImport2` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-04-23 08:55:48,180 WARNING database DDL Query made to DB:
+ALTER TABLE `tabImport2` ADD COLUMN `item_code` varchar(140), ADD COLUMN `item_name` varchar(140), ADD COLUMN `date_test` date
+2025-04-23 15:01:51,554 WARNING database DDL Query made to DB:
+ALTER TABLE `tabImport2` MODIFY `date_test` varchar(140)
+2025-04-23 15:01:51,554 WARNING database DDL Query made to DB:
+ALTER TABLE `tabImport2` MODIFY `date_test` varchar(140)
+2025-04-23 15:09:16,024 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-04-23 15:09:19,975 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAddress` MODIFY `is_primary_address` tinyint NOT NULL DEFAULT 0, MODIFY `disabled` tinyint NOT NULL DEFAULT 0, MODIFY `is_shipping_address` tinyint NOT NULL DEFAULT 0, MODIFY `is_your_company_address` tinyint NOT NULL DEFAULT 0
+2025-04-23 15:09:20,024 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContact` MODIFY `pulled_from_google_contacts` tinyint NOT NULL DEFAULT 0, MODIFY `is_billing_contact` tinyint NOT NULL DEFAULT 0, MODIFY `is_primary_contact` tinyint NOT NULL DEFAULT 0, MODIFY `sync_with_google_contacts` tinyint NOT NULL DEFAULT 0, MODIFY `unsubscribed` tinyint NOT NULL DEFAULT 0
+2025-04-23 15:11:09,824 WARNING database DDL Query made to DB:
+ALTER TABLE `tabImport2` ADD COLUMN `name1` varchar(140), ADD COLUMN `customer_name` varchar(140), ADD COLUMN `customer_type` varchar(140)
+2025-04-23 15:12:32,191 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-04-23 15:12:35,102 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAddress` MODIFY `is_your_company_address` tinyint NOT NULL DEFAULT 0, MODIFY `is_primary_address` tinyint NOT NULL DEFAULT 0, MODIFY `disabled` tinyint NOT NULL DEFAULT 0, MODIFY `is_shipping_address` tinyint NOT NULL DEFAULT 0
+2025-04-23 15:12:35,161 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContact` MODIFY `sync_with_google_contacts` tinyint NOT NULL DEFAULT 0, MODIFY `unsubscribed` tinyint NOT NULL DEFAULT 0, MODIFY `is_primary_contact` tinyint NOT NULL DEFAULT 0, MODIFY `pulled_from_google_contacts` tinyint NOT NULL DEFAULT 0, MODIFY `is_billing_contact` tinyint NOT NULL DEFAULT 0
+2025-04-23 15:14:13,462 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-04-23 15:14:16,272 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAddress` MODIFY `is_your_company_address` tinyint NOT NULL DEFAULT 0, MODIFY `is_primary_address` tinyint NOT NULL DEFAULT 0, MODIFY `is_shipping_address` tinyint NOT NULL DEFAULT 0, MODIFY `disabled` tinyint NOT NULL DEFAULT 0
+2025-04-23 15:14:16,319 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContact` MODIFY `unsubscribed` tinyint NOT NULL DEFAULT 0, MODIFY `sync_with_google_contacts` tinyint NOT NULL DEFAULT 0, MODIFY `is_primary_contact` tinyint NOT NULL DEFAULT 0, MODIFY `is_billing_contact` tinyint NOT NULL DEFAULT 0, MODIFY `pulled_from_google_contacts` tinyint NOT NULL DEFAULT 0
+2025-04-23 15:18:55,418 WARNING database DDL Query made to DB:
+create table `tabImport2` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-04-23 15:20:15,348 WARNING database DDL Query made to DB:
+ALTER TABLE `tabImport2` ADD COLUMN `customer_name` varchar(140), ADD COLUMN `customer_type` varchar(140)
